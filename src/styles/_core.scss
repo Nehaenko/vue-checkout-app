@@ -7,6 +7,10 @@
 //  Core Checkout Styles
 //  ---------------------------------------------
 
+body {
+  margin: 0;
+}
+
 @import 'core/_loader';
 @import 'core/_form';
 @import 'core/_button';
