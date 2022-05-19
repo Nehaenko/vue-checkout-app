@@ -1,7 +1,7 @@
 <template>
   <Header/>
   <Main/>
-  <Footer label="Footer"/>
+  <Footer/>
 </template>
 <script>
 import Header from './components/Header/Header.vue'
