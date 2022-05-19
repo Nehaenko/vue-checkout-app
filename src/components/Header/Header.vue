@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header :style="style">
     <Icon icon="https://cdn-icons-png.flaticon.com/512/3064/3064197.png"/>
     <TextField color="black" text="Secure Checkout"/>
   </header>
@@ -14,7 +14,6 @@ export default {
   name: 'Header',
   components: {
     Icon,
-    Logo,
     TextField
   },
   props: {
