@@ -1,0 +1,28 @@
+.header-container {
+  background: $primary__color;
+  padding: $indent__base;
+
+  .header-content {
+    max-width: $layout__max-width;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header-title {
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 30px;
+        height: 30px;
+      }
+
+      p {
+        margin-left: $indent__xs;
+        font-size: $font__base;
+        font-weight: bold;
+      }
+    }
+  }
+}
