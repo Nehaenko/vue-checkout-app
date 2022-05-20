@@ -20,6 +20,12 @@ export default {
     fontSize: {
       type: String,
     },
+    fontWeight: {
+      type: String,
+    },
+    fontStyle: {
+      type: String,
+    },
   },
   setup(props) {
     props = reactive(props);
@@ -27,6 +33,8 @@ export default {
       style: computed(() => ({
         fontSize: props.fontSize,
         color: props.color,
+        fontWeight: props.fontWeight,
+        fontStyle: props.fontStyle,
       })),
     }
   },
