@@ -1,6 +1,6 @@
 import Header from './Header.vue';
 export default {
-    title: 'Header',
+    title: 'Checkout Structure Components/App/Header',
     component: Header,
     argTypes: {
         backgroundColor: { control: 'color' }
@@ -15,4 +15,4 @@ const Template = (args) => ({
     template: '<Header v-bind="args"/>',
 });
 
-export const FirstStory = Template.bind({});
+export const HeaderComponent = Template.bind({});

@@ -1,6 +1,6 @@
 import Icon from './Icon.vue';
 export default {
-    title: 'Icon',
+    title: 'Global/Components/Icon',
     component: Icon,
 };
 
@@ -12,8 +12,8 @@ const Template = (args) => ({
     template: '<Icon v-bind="args"/>',
 });
 
-export const FirstStory = Template.bind({});
+export const IconComponent = Template.bind({});
 
-FirstStory.args = {
+IconComponent.args = {
     icon: ''
 };

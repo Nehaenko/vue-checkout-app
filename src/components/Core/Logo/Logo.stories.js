@@ -1,6 +1,6 @@
 import Logo from './Logo.vue';
 export default {
-    title: 'Logo',
+    title: 'Global/Components/Logo',
     component: Logo
 };
 
@@ -12,4 +12,4 @@ const Template = (args) => ({
     template: '<Logo v-bind="args"/>',
 });
 
-export const FirstStory = Template.bind({});
+export const LogoComponent = Template.bind({});

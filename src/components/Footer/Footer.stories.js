@@ -1,6 +1,6 @@
 import Footer from './Footer.vue';
 export default {
-    title: 'Footer',
+    title: 'Checkout Structure Components/App/Footer',
     component: Footer,
     argTypes: {
         backgroundColor: { control: 'color' }
@@ -15,4 +15,4 @@ const Template = (args) => ({
     template: '<Footer v-bind="args"/>',
 });
 
-export const FirstStory = Template.bind({});
+export const FooterComponent = Template.bind({});

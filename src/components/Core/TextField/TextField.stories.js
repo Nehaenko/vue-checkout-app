@@ -1,6 +1,6 @@
 import TextField from './TextField.vue';
 export default {
-    title: 'TextField',
+    title: 'Global/Components/TextField',
     component: TextField,
     argTypes: {
         color: { control: 'color' },
@@ -19,8 +19,8 @@ const Template = (args) => ({
     template: '<TextField v-bind="args"/>',
 });
 
-export const FirstStory = Template.bind({});
+export const TextFieldComponent = Template.bind({});
 
-FirstStory.args = {
+TextFieldComponent.args = {
     text: ''
 };
