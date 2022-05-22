@@ -3,7 +3,7 @@
     <div class="header-content">
       <Logo/>
       <div class="header-title">
-        <Icon icon="https://png.pngtree.com/png-vector/20190801/ourmid/pngtree-vector-lock-icon-png-image_1638372.jpg"/>
+        <Lock stroke="white"/>
         <TextField color="white" text="Secure Checkout"/>
       </div>
     </div>
@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import Icon from "../Core/Icons/Icon.vue";
+import Lock from "../Core/Icons/Lock/Lock.vue";
 import TextField from "../Core/TextField/TextField.vue";
 import Logo from "../Core/Logo/Logo.vue";
 import {computed, reactive} from "vue";
@@ -20,7 +20,7 @@ export default {
   name: 'Header',
   components: {
     Logo,
-    Icon,
+    Lock,
     TextField
   },
   props: {
