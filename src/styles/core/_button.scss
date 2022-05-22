@@ -1,0 +1,37 @@
+@import '../global/variables';
+
+.button {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+
+  &--primary {
+    color: $white__color;
+    background-color: $primary__color;
+  }
+
+  &--secondary {
+    color: #333;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 0 0 1px inset;
+  }
+
+  &--small {
+    font-size: $font__small;
+    padding: 10px 16px;
+  }
+
+  &--medium {
+    padding: 11px $indent__base;
+    font-size: $font__regular;
+  }
+
+  &--large {
+    font-size: $font__base;
+    padding: 12px 24px;
+  }
+}
